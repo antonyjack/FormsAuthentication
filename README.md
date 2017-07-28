@@ -18,10 +18,10 @@
 </authentication>
 ```
 > After successfully validate the user credentials use below line for enable forms authentication.
-```c#
+```C#
 FormsAuthentication.SetAuthCookie("Name", false);
 ```
 > Logout the loggedin user use below code.
-```c#
+```C#
 FormsAuthentication.SignOut();
 ```
